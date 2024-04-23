@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+}
+
+div {
+	width: 200px;
+	height: 150px;
+	outline: 1px solid gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	color: #111;
+	cursor: pointer;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+a:focus {
+	color: blue;
+	font-weight: bold;
+}
+
+a:active {
+	color: green;
+	text-decoration: none;
+}
+
+/* a:visited {  
+	color: purple;
+} */
