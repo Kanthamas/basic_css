@@ -1,0 +1,73 @@
+.btn {
+	border: none;
+	cursor: pointer;
+	margin: 2rem;
+	font-size: 1.25rem;
+	padding: 0.5rem 2rem;
+	border-radius: 5px;
+	width: 200px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Button 01 */
+.btn-01 {
+	background-color: #3498db;
+	color: #fff;
+}
+
+.btn-01:hover {
+	background-color: #2980b9;
+}
+
+.btn-01:active {
+	background-color: #21618c;
+	color: red;
+}
+
+.btn-01:focus {
+	outline: none;
+	box-shadow: 0 0 5px #3498db;
+}
+
+/* Button 02 */
+.btn-02 {
+	background-color: #2ecc71;
+	color: #fff;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.btn-02:hover {
+	background-color: #27ae60;
+}
+
+.btn-02:active {
+	background-color: #1e8449;
+}
+
+.btn-02:focus {
+	outline: none;
+	box-shadow: 0 0 5px #2ecc71;
+}
+
+/* Button 03 */
+.btn-03 {
+	background-color: #e74c3c;
+	color: #fff;
+	width: 180px;
+	height: 230px;
+}
+
+.btn-03:hover {
+	background-color: #c0392b;
+}
+
+.btn-03:active {
+	background-color: #922b21;
+}
+
+.btn-03:focus {
+	outline: none;
+	box-shadow: 0 0 5px #e74c3c;
+}
