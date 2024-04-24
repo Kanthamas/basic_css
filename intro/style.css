@@ -1,0 +1,21 @@
+#head-main {
+	color: salmon;
+	background-color: lightblue;
+}
+
+p {
+	color: blue;
+}
+
+p {
+	color: lightseagreen;
+}
+
+.heading {
+	color: yellow;
+	background-color: black;
+}
+
+h1 {
+	color: violet !important;
+}
