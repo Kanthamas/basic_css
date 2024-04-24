@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+.container {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding: 2em 0 3em;
+	text-align: center;
+	background-color: lightgray;
+}
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2rem;
+	margin: 1em;
+}
+.flag {
+	width: 200px;
+	aspect-ratio: 3/2;
+	position: relative;
+	outline: 1px solid gray;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.stripe-vertical,
+.stripe-horizontal {
+	position: absolute;
+}
+.stripe-vertical {
+	width: 33.3333333333%;
+	height: 100%;
+}
+.stripe-horizontal {
+	width: 100%;
+	height: 33.333333333%;
+}
+/* Italy Flag */
+.italy-flag .green-stripe {
+	background-color: green;
+	left: 0;
+}
+.italy-flag .white-stripe {
+	background-color: white;
+	left: 33.33%;
+}
+.italy-flag .red-stripe {
+	background-color: red;
+	left: 66.67%;
+}
+
+/* Germany Flag */
+.germany-flag .black-stripe {
+	background-color: black;
+	top: 0%;
+}
+.germany-flag .red-stripe {
+	background-color: red;
+	top: 33.33%;
+}
+.germany-flag .gold-stripe {
+	background-color: gold;
+	top: 66.67%;
+}
+
+/* Japan Flag */
+.japan-flag .red-circle {
+	width: 40%;
+	aspect-ratio: 1/1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: red;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
