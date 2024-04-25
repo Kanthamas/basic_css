@@ -17,6 +17,27 @@ body {
 	height: 200px;
 	background-color: rgb(57, 125, 250);
 }
+
+.box-parent {
+	width: 400px;
+	height: 400px;
+	background-color: yellow;
+	color: #111;
+	outline: 2px solid red;
+
+	/* position: relative; */
+	/* left: 200px; */
+}
+.box-child {
+	background-color: blue;
+	color: wheat;
+
+	/* position: absolute; */
+	/* right: 50px; */
+	/* top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+}
 /* CSS Positions*/
 .static {
 	position: static;
