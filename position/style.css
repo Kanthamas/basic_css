@@ -25,19 +25,32 @@ body {
 	color: #111;
 	outline: 2px solid red;
 
-	/* position: relative; */
-	/* left: 200px; */
+	position: relative;
+	left: 200px;
 }
 .box-child {
 	background-color: blue;
 	color: wheat;
 
-	/* position: absolute; */
+	position: absolute;
 	/* right: 50px; */
+
+	right: -100px;
+	top: -100px;
+	border-radius: 50%;
+
 	/* top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%); */
 }
+
+.box-child span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 /* CSS Positions*/
 .static {
 	position: static;
